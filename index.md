@@ -1,0 +1,3 @@
+# My Home Page
+
+In future **bold** posts I’ll be showing how we combined the templating _italics_ facilities of Nunjucks with the Wintersmith static site generator to build our own simple multi-lingual CMS…
