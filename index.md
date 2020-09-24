@@ -4,7 +4,7 @@ In future **bold** posts I’ll be showing how we combined the templating _itali
 
 **strong** You can run it in the browser, but you probably shouldn’t. This is meant to be run in Node.js and used to compile templates server side.
 
-<form action="/success" name="contact" method="POST" data-netlify="true">
+<form action="/success" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -14,6 +14,7 @@ In future **bold** posts I’ll be showing how we combined the templating _itali
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Send</button>
   </p>
